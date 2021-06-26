@@ -11,7 +11,6 @@ public class Rock_Paper_Sciss{
         user_1 = sc.next();
         user = user_1.toLowerCase().charAt(0); 
         computer_number = Math.random() * 10 ; 
-
         if(computer_number <= 3){
             computer = 'r';
             computer_1 = "Rock";
@@ -24,10 +23,8 @@ public class Rock_Paper_Sciss{
             computer = 's';
             computer_1 = "Scissors";
         }
-
             System.out.println("User : "+user_1);
             System.out.println("Computer : "+computer_1+"\n");
-
         if((computer == 'r' && user == 'p') || (computer == 'p' && user == 's') || (computer == 's' && user == 'r')){
             System.out.println("~~~~~~~~ You Win ~~~~~~~~\n");
             user_score++;
