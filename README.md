@@ -2,7 +2,7 @@ This a simple Rock, Paper, Scissors game and I have tried to make this game at a
 
 Programming Language: Java
 
-Number of lines: 45
+Number of lines: 42
 
 About my program : 
 
