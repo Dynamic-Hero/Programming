@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Rock_Paper_Sciss{
     public static void main(String[] args) {
+         int user_score = 0 , computer_score = 0 ;
         while(true){
-            int user_score = 0 , computer_score = 0 ;
             char computer = ' ' , user = ' ';
             String user_1 = "" , computer_1 = "";
             double computer_number = 0.0 ;
